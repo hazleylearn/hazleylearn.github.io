@@ -1,0 +1,98 @@
+body > header {
+    background-color: orange;
+    display: flex ;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    /* box-shadow: 8px 8px 10px 3px darkorange; */
+    width: 20%;
+    /* text-shadow: 2px 2px 8px #f10000; */
+    color: aliceblue;
+    /* border-radius: 10%; */
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#nav-ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 16px;
+}
+
+body > main article {
+    width: 60%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content aside {
+    width: 70%;
+}
+
+
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+}
+body > footer {
+    background-color: orange;
+    display: flex;
+}
+#footer-ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 100%;
+}
+body {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+
+
+/* CSS Layouts */
+/* Flexbox - allows you to tạo cột or dòng of elements - align them horrizontally or vertically   */
+/*  */
